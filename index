@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background-image: url("https://i.pinimg.com/564x/09/28/a2/0928a24b725c311aa30ae4a86ec62ab1.jpg");
+      background-size: 2150px 1050px;
+    }
+  </style>
+  <style>
+    h1 {
+      text-align: center;
+    }
+  </style>
+  <style>
+    h2 {
+      text-align: center;
+    }
+  </style>
+  <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>meeb's room</title>
+  
+  <!-- Fonts -->
+  <style>
+    h1.textstyle {
+      font-family: Chalkduster, fantasy;
+    }
+  </style>
+  <style>
+    body {
+      font-family:
+        Gill Sans, sans-serif
+    }
+    h2.textstyle {
+      font-family:
+        Stencil Std, fantasy;
+    }
+  </style>
+  
+  <!-- Coloring -->
+  <style>
+    label {
+      color: pink
+    }
+    input {
+      color: darkorange
+    }
+    
+    p {
+      color: white;
+    }
+
+    h1 {
+      color: darkmagenta;
+    }
+
+    h2 {
+      color: hotpink
+    }
+  </style>
+</head>
+
+<body>
+  
+  <!-- Intros Headers And Divs-->
+  <h1 class="textstyle">meeb</h1>
+  <h2 class="textstyle">meeb is a totally legit certified therapist here to help sort out your feelings of the day.
+    let's start with a warm welcome!</h2>
+  <div  style ="text-align:center;">
+  <label >state ur name:</label>
+    <input type="text" id="name" name="name">
+    <input type="button" onclick="alert('hi ' + document.getElementById('name').value + '! let me help you during this time. answer my questions below!')" value="say hi!"')"
+  </div>
+  
+  <!--Questionnaire -->
+<br><p>how are you feeling today?</p>
+  
+  <!--Sad response -->
+  <input type="button" onclick="alert('its okay to feel sad at times. reach out and talk to a trusted adult such as a parent or a counselor, even if you dont feel like it. you are not alone. you are loved. you are worthy. you are enough.')" value="sad"')" />
+  
+   <!--Stressed response -->
+  <input type="button" onclick="alert('its okay to feel stressed at times. the feeling will eventually pass. relax and meditate. take a deep breath and make sure you are making time for you. you are not an inconvenience for having a bad day. there will always be calm after the storm.')" value="stressed"')" />
+
+  <!--Angry response -->
+  <input type="button" onclick="alert('its okay to feel angry at times. take a break and relax. practice healthy coping mechanisms such as deep breathing, meditation, and journaling. accept whats out of your control. take a time out and think before you speak. dont let the anger consume you.')" value="angry"')" />
+  
+  <!--Happy response -->
+  <input type="button" onclick="alert('i am so glad you are feeling happy today! indulge in this feeling and i hope you maintain this feeling for the rest of the day. stay safe and remember to prioritize your mental health. you are loved. you are worthy. you are enough. you are strong!')" value="happy"')" />
+  
+  <!--Survey -->
+  <p>was meeb able to help you today?</p>
+  
+  <!--Yes response -->
+  <input type="button" onclick="alert('im so glad i was able to help you today! if you need any more assistance, im always a couple clicks away. i hope you have a good rest of your day!')" value="yes"')" />
+  
+  <!--No response -->
+  <input type="button" onclick="alert('im sorry i wasnt able to help you today. if you need further assistance, feel free to call this hotline 988. you are not an inconvenience for having strong feelings at this time or for taking up someone elses time. you are perfectly fine at this moment. i hope your day improves.')" value="no"
+    
+    <!--Meeb -->
+  <br><br><br><img src="media/meeb.gif" alt="meeb idle" width=400 height=300>
+
+
+</body>
+
+</html>
